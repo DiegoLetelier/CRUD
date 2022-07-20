@@ -1,13 +1,18 @@
-body{
+.background-img {
+    background-image: url("./assets/amanecer.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+.presentation-text {
+    border: 10px solid #fff
+}
+
 table{
     width: 80%;
     margin: 40px auto;
-    background: rgb(124,154,167);
+    background: rgb(69, 148, 182);
 }
 
 table.list{
@@ -22,7 +27,7 @@ td{
 }
 
 tr:nth-child(even), table.list thread> tr{
-    background-color: rgb(204,200,200);
+    background-color: rgb(53, 72, 106);
 }
 
 input[type="text"],input[type="number"]{
